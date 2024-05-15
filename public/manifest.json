@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Naciotex Distribuidora",
-  "short_name": "NACIOTEX",
-  "description": "NACIOTEX",
+  "name": "Antotex",
+  "short_name": "ANTOTEX",
+  "description": "ANTOTEX",
   "icons": [
     {
       "src": "/icon-192x192.png",

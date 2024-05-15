@@ -11,7 +11,6 @@ export function ListCategories(props) {
   const scale = "c_scale,f_auto,q_30,w_500/";
   const upload = 'image/upload/';
 
-  console.log(categories);
   return (
     <div>
       <div className={styles.content}>

@@ -42,7 +42,7 @@ export function DetailProduct(props) {
   const upload = "image/upload/";
 
   const format = (number) => {
-    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."); // Cambia 'es-ES' por tu configuración regional
   };
 
   useEffect(() => {
@@ -142,10 +142,10 @@ export function DetailProduct(props) {
                 </label>
                 <div className={styles.price}>
                   {productData?.price1 > 1 && (
-                    <h5>Mayor $ {format(productData.price2)} </h5>
+                    <h5>Detal $ {format(productData.price1)} </h5>
                   )}
                   {productData?.price2 > 1 && <h5>
-                   Detal $ {format(productData.price1)}
+                   Mayor $ {format(productData.price2)}
                     </h5>}
                 </div>
               </CardTitle>

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import NextNprogress from "nextjs-progressbar";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../scss/global.scss";
 import { CartProvider } from "@/contexts";
@@ -78,13 +78,7 @@ export default function App(props) {
 
   return (
     <>
-      <NextNprogress
-        color="#FF0"
-        startPosition={0.3}
-        stopDelayMs={200}
-        height={10}
-      />
-
+ 
       <CartProvider>
         <Component {...pageProps} />
         <ToastContainer

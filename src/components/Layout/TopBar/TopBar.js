@@ -7,7 +7,7 @@ export function TopBar() {
     <>
       <div className={styles.topBar}>
         <Link href="/">
-          <CardImg src="/image/logo.jpeg" alt="Naciotex" />{" "}
+          <CardImg src="/image/logo.png" alt="Antotex" />{" "}
         </Link>      
   
       </div>

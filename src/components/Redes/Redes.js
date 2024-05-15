@@ -30,9 +30,9 @@ export function Redes() {
   return (
     <>
       <div className={styles.redes}>
-        <p>Ventas por Mayor y Detal</p>
-        <p>CARRERA 8 # 16 - 63 Centro</p>
-        <p>Whatsapp: 310 655 6056</p>
+        <p>Ventas por Mayor</p>
+        <p>CARRERA 8 # 17 - 38 Centro de Cali</p>
+        <p>Whatsapp: </p>
       </div>
       {/* 
       <div

@@ -30,6 +30,7 @@ export function Redes() {
   return (
     <>
       <div className={styles.redes}>
+        <h4>CÁTALOGO 2024</h4>
         <p>Ventas por Mayor</p>
         <p>CARRERA 8 # 17 - 38 Centro de Cali</p>
         <p>Whatsapp: </p>

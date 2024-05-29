@@ -33,7 +33,7 @@ export function Redes() {
         <h4>CÁTALOGO 2024</h4>
         <p>Ventas por Mayor</p>
         <p>CARRERA 8 # 17 - 38 Centro de Cali</p>
-        <p>Whatsapp: </p>
+        <p>Whatsapp: 311 3666417 </p>
       </div>
       {/* 
       <div

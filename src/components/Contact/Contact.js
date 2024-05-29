@@ -9,7 +9,10 @@ export function Contact() {
         <div className={styles.phone}>
           <h5>Líneas de atención</h5>
           <ul>
-            <li>(+57)</li>
+          <li>(+57) 300 9766163</li>
+          <li>(+57) 311 3666417</li>
+          <li>(+57) 314 4907336</li>
+          <li>(+57) 320 5283754</li>
           </ul>
         </div>
 

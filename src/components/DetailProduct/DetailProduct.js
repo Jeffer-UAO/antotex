@@ -142,10 +142,10 @@ export function DetailProduct(props) {
                 </label>
                 <div className={styles.price}>
                   {productData?.price1 > 1 && (
-                    <h5>Detal $ {format(productData.price1)} </h5>
+                    <h5>Sin Descuento $ {format(productData.price1)} </h5>
                   )}
                   {productData?.price2 > 1 && <h5>
-                   Mayor $ {format(productData.price2)}
+                   Con Descuento $ {format(productData.price2)}
                     </h5>}
                 </div>
               </CardTitle>
